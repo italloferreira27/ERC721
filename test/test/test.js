@@ -11,7 +11,7 @@ describe("MyContract", function() {
         await mycontractDeployed.deployed();
 
         expect(await mycontractDeployed.name()).to.equal("MyContractname");
-        
-        expect(await mycontractDeployed.symbol()).to.equal("MCN")
-    })
-})
+
+        expect(await mycontractDeployed.symbol()).to.equal("MCN");
+    });
+});

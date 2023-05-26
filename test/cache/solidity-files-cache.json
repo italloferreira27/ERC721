@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/itallo/Documentos/Meus-Projetos/ERC721/test/contracts/MyContract.sol": {
-      "lastModificationDate": 1685103181238,
-      "contentHash": "3e2078490aca5cba5bf40826006bd958",
+      "lastModificationDate": 1685107048443,
+      "contentHash": "76c5b11ffb7ec77d722158cb5e8823a6",
       "sourceName": "contracts/MyContract.sol",
       "solcConfig": {
         "version": "0.8.18",
@@ -29,7 +29,8 @@
         }
       },
       "imports": [
-        "../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol"
+        "../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "../node_modules/hardhat/console.sol"
       ],
       "versionPragmas": [
         "^0.8.18"
@@ -402,6 +403,41 @@
       ],
       "artifacts": [
         "IERC165"
+      ]
+    },
+    "/home/itallo/Documentos/Meus-Projetos/ERC721/test/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1684452053657,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
       ]
     }
   }

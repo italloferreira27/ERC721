@@ -8,6 +8,7 @@
 `npm install hardhat`
 `npx hardhat` e logo após selecione a opção `Create an empty hardhat.config.js`, isso criara um ...
 `npx hardhat compile` Compilar o comtrato
+`npx hardhat test` run test
 
 ### ECR721
 `npm install @openzeppelin/contracts`
