@@ -10,8 +10,12 @@ Repositório contendo os arquivos da prática do Minicurso 2, do evento SBRC 202
 ## Bibliotecas necessárias
 Execute o comando abaixo na pasta do repositório para instalar as dependências:
 ```bash
+sudo apt install python3-pip
 pip install -r requirements.txt
 ```
+## Primeiros passos
+`truffle init` - Arquivos de configuração truffle
+
 
 ## Configuração das variáveis de ambiente
 Preencha os arquivos `vendedor.env` e `locatario.env` com os dados gerados pelo Remix e o Ganache.
