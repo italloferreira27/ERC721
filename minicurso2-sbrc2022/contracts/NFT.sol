@@ -38,8 +38,9 @@ contract NFT is ERC721URIStorage {
     function criarNovoToken(string memory tokenURI) public {
         _tokenIds.increment();
         uint256 novoId = _tokenIds.current();
-
-        _mint(msg.sender, newItemId);
+        
+        // _mint(msg.sender, newItemId);
+        _mint(msg.sender, novoId);
         _setTokenURI(novoId, tokenURI);
         approve(marketplace, novoId);
 
