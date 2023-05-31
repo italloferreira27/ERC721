@@ -6,7 +6,7 @@ pragma solidity ^0.8.3;
 import "../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
 // Contador para os IDs dos itens alugáveis
 //import "https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/utils/Counters.sol";
-import "../node_modules/@openzeppelin/contracts/utils/Counters.sol";
+import "../node_modules/@openzeppelin/cotracts/utils/Counters.sol";
 
 
 
