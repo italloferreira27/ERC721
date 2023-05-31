@@ -1,0 +1,15 @@
+{
+  "name": "minicurso2-sbrc2022",
+  "version": "1.0.0",
+  "description": "Repositório contendo os arquivos da prática do Minicurso 2, do evento SBRC 2022.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+}

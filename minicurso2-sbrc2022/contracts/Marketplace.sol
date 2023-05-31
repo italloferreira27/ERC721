@@ -2,9 +2,12 @@
 pragma solidity ^0.8.3;
 
 // Padrão ERC721
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/token/ERC721/ERC721.sol";
+//import "https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/token/ERC721/ERC721.sol";
+import "../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
 // Contador para os IDs dos itens alugáveis
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/utils/Counters.sol";
+//import "https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/utils/Counters.sol";
+import "../node_modules/@openzeppelin/contracts/utils/Counters.sol";
+
 
 
 contract Marketplace{
