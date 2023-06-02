@@ -25,10 +25,10 @@ Os outros dados podem ser obtidos no Remix.
 ## Execução
 Na pasta do repositório, basta executar os comandos abaixo para exemplificar o vendedor e locatário, respectivamente:
 ```bash
-python scripts/vendedor.py
+python3 scripts/vendedor.py
 ```
 ```bash
-python scripts/locatario.py
+python3 scripts/locatario.py
 ```
 
 O arquivo `base_cids.txt` pode ser utilizado como teste para colar os CIDs das imagens, porém é recomendada a utilização do próprio IPFS.
