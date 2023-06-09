@@ -30292,12 +30292,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x0335c22bC72e86C08D6DA5515f4294a17807Bf21",
-      "transactionHash": "0x83bce8468ca0764dbaa8665ee1831e34276a4b9b65c312aacf872c21b0f271aa"
+      "address": "0xcC2Bd1D2AA53249B0aE6Aa629bfD7Fea1B03F984",
+      "transactionHash": "0xebbd385398412ce370b4b882a42e9ef39f5d04ce573ac71cec8b2c0bf2e83ed8"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2023-06-07T13:59:42.483Z",
+  "updatedAt": "2023-06-09T02:05:07.932Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
