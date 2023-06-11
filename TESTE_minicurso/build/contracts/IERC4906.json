@@ -803,7 +803,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2023-06-07T13:59:04.275Z",
+  "updatedAt": "2023-06-09T14:36:39.751Z",
   "devdoc": {
     "events": {
       "BatchMetadataUpdate(uint256,uint256)": {
