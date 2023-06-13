@@ -1,6 +1,0 @@
-const Marketplace = artifacts.require("Marketplace")
-
-module.exports = function (deployer) {
-    deployer.deploy(Marketplace);
-    console.log("Address => ", Marketplace.address)
-};
