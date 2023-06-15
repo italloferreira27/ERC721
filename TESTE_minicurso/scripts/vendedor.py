@@ -54,3 +54,5 @@ if nft != None and marketplace != None:
         else:
             print("Nenhum NFT pertencente a esta conta!")
             print("=======================================================")
+else: 
+    print("erro NFT ou Marquetplace = 0")
