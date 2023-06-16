@@ -13,8 +13,8 @@ Execute o comando abaixo na pasta do repositório para instalar as dependências
 sudo apt install python3-pip
 pip install -r requirements.txt
 ```
-## Primeiros passos
-`truffle init` - Arquivos de configuração truffle
+<!-- ## Primeiros passos
+`truffle init` - Arquivos de configuração truffle -->
 
 
 ## Configuração das variáveis de ambiente
