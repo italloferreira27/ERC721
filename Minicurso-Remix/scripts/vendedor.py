@@ -1,9 +1,9 @@
-from utils.run import init
-from utils.menu import menu_vendedor
+import utils.run as run
+import utils.menu as menu #menu_vendedor
 
-nft, marketplace = init("vendedor.env")
+nft, marketplace = run.init("vendedor.env")
 if nft != None and marketplace != None:
-    menu_vendedor()
+    menu.menu_vendedor()
     print("=======================================================")
     opcao = int(input("Selecione uma opção: "))
     print("=======================================================")
