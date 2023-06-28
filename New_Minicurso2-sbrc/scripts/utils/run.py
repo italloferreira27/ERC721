@@ -21,7 +21,7 @@ def init(env_name : str):
 
     # Resgata variáveis de ambiente
     env = Env()
-    path_to_env = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "\\{}".format(env_name)
+    path_to_env = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "//{}".format(env_name)
     env.read_env(path_to_env)
     # Inicializa constantes
     PUBLIC_KEY = env.str("PUBLIC_KEY")
