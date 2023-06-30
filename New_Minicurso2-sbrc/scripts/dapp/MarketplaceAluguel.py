@@ -133,6 +133,7 @@ class MarketplaceAluguel:
                 itemId
             ).build_transaction({
                 "nonce": nonce,
+                "gasPrice": self.web3.eth.gas_price,
                 "from": self.public_key
             })
             # Assina a transação com a chave privada da conta
