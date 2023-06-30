@@ -24,6 +24,6 @@ Para a criação do projeto executar os seguintes códigos:
 ### ECR721
 `npm install @openzeppelin/contracts`
 
-
+### softwares
 
 - [Reference](https://towardsdatascience.com/create-virtual-environment-using-virtualenv-and-add-it-to-jupyter-notebook-6e1bf4e03415)
